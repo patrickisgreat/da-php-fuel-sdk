@@ -239,8 +239,12 @@ class ET_Client extends SoapClient
     public function getConfig()
     {
         $config = false;
-        if (file_exists(realpath(__DIR__ . "../ExactTargetLaravelConfig.php"))) {
-            $config = include __DIR__ . "../ExactTargetLaravelConfig.php";
+        var_dump($config);
+            die();
+        if (file_exists(realpath(__DIR__ . "/../ExactTargetLaravelConfig.php"))) {
+            var_dump($config);
+            die();
+            $config = include __DIR__ . "/../ExactTargetLaravelConfig.php";
             return $config;
         }
         return $config;
