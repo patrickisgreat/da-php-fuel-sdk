@@ -10,7 +10,7 @@
         "ext-openssl": "*",
         "ext-soap": "*",
         "php": ">=5.6.24",
-        "digitaladditive/wse-php-fork": "dev-master",
+        "digitaladditive/wse-php-fork": "^0.1",
         "firebase/php-jwt":">=5.0.0"
     },
     "require-dev": {
